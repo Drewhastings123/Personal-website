@@ -1,0 +1,66 @@
+header {
+  background-color: #003049;
+  color: #fdf0d5;
+  text-align: center;
+  padding-bottom: 15px;
+}
+h2 {
+  font-style: italic;
+}
+html {
+  background-color: #669bbc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  background-color: #c1121f;
+  color: #fdf0d5;
+  border-radius: 12px;
+  padding: 10px 24px;
+  width: 100px;
+}
+button:hover {
+  background-color: #780000;
+  transform: scale(1.1);
+  transition: transform 400ms;
+}
+button:active {
+  background-color: #780000;
+  box-shadow: 0 5px #fdf0d5;
+  transform: translateY(4px);
+}
+
+#Interests {
+  text-decoration: underline;
+}
+.about {
+  background-color: #003049;
+}
+.about:active {
+  background-color: #669bbc;
+}
+.about:hover {
+  background-color: #669bbc;
+}
+span {
+  border: solid transparent;
+  padding: 10px;
+}
+.aboutme {
+  margin: 10px;
+  background-color: #780000;
+  color: #fdf0d5;
+  padding: 7px;
+}
+.topsect {
+  margin: 10px;
+  background-color: #780000;
+  color: #fdf0d5;
+  padding: 7px;
+}
+
+#drew {
+  float: inline-end;
+}
+/* #Liverpool{
+  float: right;
+} need to add back in*/

@@ -50,17 +50,65 @@ span {
   background-color: #780000;
   color: #fdf0d5;
   padding: 7px;
+  border: 1px solid;
+ 
 }
 .topsect {
   margin: 10px;
   background-color: #780000;
   color: #fdf0d5;
   padding: 7px;
+  border: 1px solid;
 }
 
 #drew {
   float: inline-end;
+  border-radius: 25px;
 }
 #Liverpool {
   float: right;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#id {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.flex {
+  display: flex;
+  position: relative;
+  
+}
+.aboutme1 {
+  margin: 10px;
+  background-color: #780000;
+  color: #fdf0d5;
+  padding: 7px;
+  border: 1px solid;
+}
+@media (max-width: 500px) {
+  .aboutme {
+    width: 300px;
+  }
+  .aboutme1 {
+    width: 300px;
+  }
+  #Liverpool {
+    width: 100px;
+  }
+}
+.box{
+  margin: 10px;
+  background-color: #780000;
+  color: #fdf0d5;
+  padding: 7px;
+  width: 50%;
+  border: 1px solid;
+  box-sizing: border-box;
 }
